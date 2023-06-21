@@ -1,4 +1,2 @@
-# Base Image
 FROM httpd:2.4
-
-COPY ./public-html/ /var/www/html/
+COPY ./public-html/ /usr/local/apache2/htdocs/
