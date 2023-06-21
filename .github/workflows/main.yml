@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: docker.io/olixc/your-image-name:latest
+          tags: docker.io/olixc/apache-webapp:latest
